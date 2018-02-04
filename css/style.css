@@ -8,14 +8,12 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
-  color: #1de099;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
 }
 
 a {
-  color: #1dc8cd;
+  color: #000;
   transition: 0.5s;
 }
 
@@ -570,7 +568,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content h3 {
-  color: #777;
+  color: #1dc8cd;
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
@@ -579,6 +577,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .content p {
   line-height: 26px;
+  color: #1dc8cd; 
 }
 
 #about .content p:last-child {
@@ -598,6 +597,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .content ul li {
   padding-bottom: 10px;
+}
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: green;
+}
+
+/* selected link */
+a:active {
+    color: black;
 }
 
 /* Product Featuress Section
@@ -684,12 +702,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   font-weight: 400;
   font-style: italic;
-  color: #999;
+  color: #1dc8cd;
 }
 
 #advanced-features p {
   line-height: 24px;
-  color: #777;
+  color: #1dc8cd;
   margin-bottom: 30px;
 }
 
@@ -801,14 +819,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #more-features .icon i {
-  color: #1de099;
+  color: #000;
   font-size: 80px;
   transition: 0.5s;
   line-height: 0;
 }
 
 #more-features .icon i:before {
-  background: #1dc8cd;
+  background: #000;
   background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -823,7 +841,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #more-features h4 a {
-  color: #111;
+  color: #000;
 }
 
 #more-features p {
